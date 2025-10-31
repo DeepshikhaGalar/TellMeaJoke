@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell me a Joke</title>
+    <style>
+        body {
+            margin-bottom: 22%;
+            padding: 0%;
+            overflow-x: hidden;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+
+        #main {
+            height: 600px;
+            display: block;
+            width: 1486px;
+            margin-top: -16px;
+            scroll-margin: 0%;
+        }
+
+        header {
+            width: 1533px;
+            height: 150px;
+            background: content-box radial-gradient(#99f,#3f1b5d );
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-color: #9368ac;
+        }
+
+        #ok {
+            margin-top: 31px;
+            width: 330px;
+            height: 306.75px;
+            /*  margin-top: 122px;*/
+            margin-left: 65px;
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-top-width: 2px;
+            border-top-style: solid;
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-right-width: 2px;
+            border-right-style: solid;
+        }
+
+        #para {
+            font-size: x-large;
+            margin-left: 38px;
+            margin-top: 35px;
+            margin-right: 161px;
+            color: #551c1c;
+        }
+
+        #ok2 {
+            width: 330px;
+            height: 306.75px;
+            margin-top: 0px;
+            margin-left: 46px;
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-top-width: 2px;
+            border-top-style: solid;
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-right-width: 2px;
+            border-right-style: solid;
+
+        }
+
+        ul {
+            width: 1147.367px;
+            margin-left: -563px;
+            margin-top: 61px;
+            padding-left: 0px;
+            margin-right: 0px;
+        }
+
+        hr {
+            margin-top: -63px;
+            margin-left: 123px;
+            color:white;
+            font-size: 25px;
+            height: 89px;
+            width: 1000px;
+            display: flex;
+            margin-bottom: 18px;
+            border-left-width: 2.8px;
+            border-left-style: solid;
+            border-top-width: 2.8px;
+            border-top-style: solid;
+            border-right-width: 2.8px;
+            border-right-style: solid;
+            border-bottom-width: 2.8px;
+            border-bottom-style: solid;
+            background: content-box radial-gradient(#9999ff,#006 );
+            border-color: #c8a06b;
+        }
+
+        h2 {
+
+            margin-left: 51px;
+            width: 674px;
+            color: #395597;
+            font-size: 38px;
+        }
+
+        footer {
+            margin-bottom: 40px;
+            height: 125.8px;
+            display: flex;
+            justify-content: center;
+            opacity: 47%;
+            font-size: 15px;
+        }
+
+        li {
+            margin-left: 28%;
+            display: grid;
+        }
+
+        p {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: xxx-large;
+            color: 	 #00001a;
+            margin-top: 15px;
+            padding-top: 22px;
+            text-align: center;
+        }
+
+        div {
+            margin-left: 24%;
+            font-size: 20px;
+            float: none;
+            justify-content: end;
+            margin-top: -17px;
+            color: 	 #00001a;
+            width: 756.367px;
+        }
+
+        #hm {
+            margin-right: 72px;
+            margin-left: 116px;
+
+        }
+
+        #zero {
+
+            margin-right: 72px;
+        }
+
+        #one {
+            margin-right: 55px;
+        }
+
+        #two {
+            margin-right: 50px;
+        }
+
+        #three {
+            margin-right: 50px;
+        }
+
+        h1 {
+
+            margin-top: 97.44px;
+            margin-bottom: -144.17px;
+            margin-left: 121px;
+            width: 800px;
+            height: 76.6px;
+
+            display: flex;
+            justify-content: center;
+            font-size: 49px;
+            color: #c64848;
+        }
+
+        ol {
+            margin-top: 90px;
+            margin-left: -1166px;
+        }
+
+        input {
+            width: 528px;
+            height: 37px;
+            border-radius: 17px;
+            text-align: center;
+            margin-left: 896px;
+            margin-top: -9px;
+
+        }
+
+        button {
+            display: flex;
+            padding-top: 8px;
+            justify-content: center;
+            margin-top: 156px;
+            margin-left: 1156px;
+            width: 125px;
+            height: 40px;
+            color: #0a0ac3;
+            background-color: #b6acac;
+            font-size: 15px;
+            border-radius: 20px;
+        }
+
+        button:hover {
+            background-color: #806e5e;
+        }
+
+        .container {
+            margin-left: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <header>
+            <p>TalkieJokes</p>
+            <div>
+                <span id="hm">Ask Ai</span>
+                <span id=="Zero">Jokes</span>
+                <span id="one">Memes</span>
+                <span id="two">Contact us</span>
+                <span id="three">More...</span>
+            </div>
+        </header>
+        <h1>100 Free Hindi and English jokes...</h1>
+        <input type="text" id="ntg" placeholder="Type your intrests....">
+        <button type="search" name="search" onclick="printOneJoke()">Search a joke</button>
+        <hr id="jokebox">
+        </hr>
+        <img src="jokes1.jpg" id="ok" alt="an img">
+        <img src="jokes2.jpg" id="ok2" alt="an img">
+        <p id="para">Laughter is like a universal password. It works everywhere, from classrooms to boardrooms, and even
+            among strangers in an elevator. At the heart of it all are jokes, those magical little nuggets of wit and
+            humor that can turn a bad day into a good one or make awkward silences disappear. The Best Jokes don’t just
+            make you laugh; they leave you thinking, “Why didn’t I come up with that?” They’re the ones you share with
+            friends, knowing they’ll hit just right every time.
+            Our list of best jokes of all time is like timeless treasures handed down through generations. They have the
+            power to unite everyone, from your dad, who thinks he’s hilarious, to your friend who never cracks a smile.
+        </p>
+        <h2>Follow us for more funny jokes</h2>
+
+        <footer>
+            <div id="li">
+                <ul>
+                    Site Map
+                    About TalkieJokes
+                    About TalkieJokes Health
+                    Editorial Policy
+                    Contact Us
+                    Licensing Request
+                    Privacy Policy
+                    Terms of Use</ul>
+            </div>
+            <ol>© 2025 The Arena Media Brands, LLC TalkieJokes is a registered trademark of ABC Communications,
+                Inc.</ol>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+
+</html>
